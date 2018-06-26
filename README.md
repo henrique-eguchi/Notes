@@ -1,3 +1,28 @@
+# SQL Server
+Useful SQL Server commands
+
+## Get the data type associated with a specific column
+```
+SELECT DATA_TYPE 
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE 
+     TABLE_NAME = 'tableName' AND 
+     COLUMN_NAME = 'columnName'
+
+```
+
+## Check the max value from table, before alter the identity
+```
+SELECT MAX(column_name) FROM table1
+```
+
+## Reset auto identity
+If number equals 0 then in the next insert the auto increment field will contain value 1
+```
+DBCC CHECKIDENT('databasename.dbo.tablename', RESEED, number)
+```
+
+
 # NuGet
 Useful NuGet commands 
 
