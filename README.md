@@ -115,3 +115,14 @@ Example
 ```shell
 Get-Package -Filter Newtonsoft.Json -ListAvailable -AllVersions -IncludePrerelease | ft -AutoSize
 ```
+
+# Plugins VS
+- Add New File
+- AutoHistory
+- Commentator
+- Editor Guidelines
+- EF 6.x EntityObject Generator for C#
+- Productivity Power Tools
+- Web Essentials
+- ReSharper
+- WSCFblue [External]
