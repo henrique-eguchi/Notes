@@ -124,5 +124,5 @@ Get-Package -Filter Newtonsoft.Json -ListAvailable -AllVersions -IncludePrerelea
 - EF 6.x EntityObject Generator for C#
 - Productivity Power Tools
 - Web Essentials
-- ReSharper
+- ReSharper (Paid - Own compiler) or Code Cracker (Free and run over Roslyn compiler :D)
 - WSCFblue [External]
