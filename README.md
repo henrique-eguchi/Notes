@@ -116,6 +116,32 @@ Example
 Get-Package -Filter Newtonsoft.Json -ListAvailable -AllVersions -IncludePrerelease | ft -AutoSize
 ```
 
+# Docker
+## Initial boarding tutorial
+### Build
+Mac
+```shell
+cd doodle/cheers2019 && docker build -t <USER>/cheers2019 .
+```
+Win
+```shell
+cd doodle\cheers2019 ; docker build -t <USER>/cheers2019 .
+```
+### Run
+Mac/Win
+```shell
+docker run -it --rm <USER>/cheers2019
+```
+### Ship
+Mac
+```shell
+docker login && docker push <USER>/cheers2019
+```
+Win
+```shell
+docker login ; docker push <USER>/cheers2019
+```
+
 # Plugins VS
 - Add New File
 - AutoHistory
